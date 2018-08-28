@@ -1,0 +1,56 @@
+body div h1{
+  text-align: center;
+  font-size: 36px;
+}
+
+body div p{
+  text-align: center;
+}
+
+body div p button{
+  font-size: 20px;
+}
+
+.errorMessage{
+  color: red;
+}
+
+.newsTable{
+  width:50%; 
+  margin-left: auto; 
+  margin-right:auto;
+}
+
+.newsTable li{
+  margin: 3%;
+  letter-spacing: 1px;
+}
+
+.pagination{
+  text-align: center;
+}
+
+.pagination li{
+  display: inline;
+  margin: 10px;
+  padding: 10px;
+}
+
+.pagination li a{
+  text-decoration: none;
+}
+
+.pagination li a:visited{
+  color: #000 !important;
+}
+
+.active{
+  background: blue;
+}
+
+.disabled{
+    color: currentColor;
+    cursor: not-allowed;
+    opacity: 0.5;
+    text-decoration: none;
+}
