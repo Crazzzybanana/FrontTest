@@ -52,10 +52,6 @@ class App extends Component {
       )
   }
 
-  titleHandleClick = () => {
-
-  }
-
   handlePageChange = (pageNumber) => {
     this.setState({activePage: pageNumber});
     fetch("https://content.guardianapis.com/search?page=" + pageNumber + "&api-key=1f4ab76d-b493-43db-940f-3c63f78ac1a5")
